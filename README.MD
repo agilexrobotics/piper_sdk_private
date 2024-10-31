@@ -4,6 +4,8 @@
 
 [pypi的2FA验证码]<https://blog.csdn.net/qq_39517117/article/details/138549900>
 
+***不要用这个仓库里的sdk文件，使用最新的piper_sdk**
+
 安装
 
 ```shell

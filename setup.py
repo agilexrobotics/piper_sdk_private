@@ -2,7 +2,7 @@ from setuptools import setup, find_packages # 导入setuptools打包工具
 
 setup(
     name='piper_sdk',
-    version='0.0.8',    # 包版本号，便于维护版本
+    version='0.1.9',    # 包版本号，便于维护版本
     packages=find_packages(include=['piper_sdk', 'piper_sdk.*']),
     include_package_data=True,
     install_requires=[

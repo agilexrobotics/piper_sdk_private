@@ -5,6 +5,9 @@ setup(
     version='0.1.9',    # 包版本号，便于维护版本
     packages=find_packages(include=['piper_sdk', 'piper_sdk.*']),
     include_package_data=True,
+    package_data={
+        '': ['README.MD', 'README(EN).MD','*.sh'],  # 指定包含的文件
+    },
     install_requires=[
         'python-can>=4.3.1',
     ],

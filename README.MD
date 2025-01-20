@@ -24,10 +24,10 @@ pip install setuptools wheel twine
 python3 setup.py sdist bdist_wheel
 ```
 
-创建分发包后，可以从本地安装，版本自己看一下，我示例是`0.0.6`
+创建分发包后，可以从本地安装，版本自己看一下，我示例是`0.1.9`
 
 ```shell
-pip3 install dist/piper_sdk-0.0.6-py3-none-any.whl
+pip3 install dist/piper_sdk-0.1.9-py3-none-any.whl
 ```
 
 上传到 PyPI

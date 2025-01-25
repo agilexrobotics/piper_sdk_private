@@ -6,10 +6,11 @@ setup(
     packages=find_packages(include=['piper_sdk', 'piper_sdk.*']),
     include_package_data=True,
     package_data={
-        '': ['README.MD', 'README(EN).MD','*.sh'],  # 指定包含的文件
+        '': ['LICENSE','*.sh','*.MD'],  # 指定包含的文件
+        'piper_sdk/asserts': ['*'],  # 包括 asserts 文件夹下的所有文件
     },
     install_requires=[
-        'python-can>=4.3.1',
+        'python-can>=3.3.4',
     ],
     entry_points={
     },
@@ -18,10 +19,10 @@ setup(
     description='A sdk to control piper',   #包的简述
     # url="https://github.com/agilexrobotics/piper_sdk",
     classifiers=[
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.6',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    # python_requires='>=3.8',    #对python的最低版本要求
+    python_requires='>=3.6',    #对python的最低版本要求,18.04及以上
 )
 
